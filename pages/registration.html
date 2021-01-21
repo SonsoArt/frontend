@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/nysl.css">
+  <title>registration</title>
+</head>
+<body>
+  <!--Comienzo del Header-->
+	<header>
+    <div class="fondo"></div>
+    <div class="contenedor centrado">
+      <h1>Northside Youth Soccer League</h1>
+      <img class="logo" src="../images/nysl_logo.png" alt="nysl_logo">
+    </div>
+    <div class="contenedor tiranegra">
+      <nav>
+        <a href="../index.html">home</a>
+        <a href="about.html">about</a>
+        <a href="contact.html">contact</a>
+        <a href="game_info.html">game information</a>
+        <a href="rules.html">rules</a>
+      </nav>
+    </div>
+    <div class="subtitulo">
+      <h2>About NYSL</h2>
+    </div>
+  </header>
+  <!--Final del Header-->
+  <section class="contenedor banner bannertres">
+    <div class="contenedoroscuro contenedorform">
+      <form action="show_data.html">
+        <div class="caja_mitad">
+          <input class="formato" type="text" name="nombre" id="camponombre" placeholder="Ingrese nombre">
+          <input class="formato" type="text" name="apellido" id="campoapellido" placeholder="Ingrese apellido">
+        </div>
+        <div class="caja_mitad">
+          <input class="formato formatodos" type="text" name="calle" id="campocalle" placeholder="Ingrese dirección">
+        </div>
+        <div class="caja_mitad">
+          <input class="formato" type="text" name="ciudad" id="campociudad" placeholder="Ingrese ciudad">
+          <input class="formato" type="number" name="codigo" id="campocodigo" placeholder="Ingrese código Postal">
+        </div>
+        <label for="campofnacimiento">Birth Date: </label>
+        <div class="caja_mitad">
+          <input class="formato" type="date" value="Fecha de nacimiento" name="fnacimiento" id="campofnacimiento" placeholder="Ingrese fecha de nacimiento">
+          <div class="formato">
+            <label for="campofemenino">Female</label>
+            <input  type="radio" name="gro" id="campofemenino">
+            <label for="campomasculino">Male</label>
+            <input type="radio" name="gro" id="campomasculino">
+            <label for="camponobinario">Non-binary</label>
+            <input type="radio" name="gro" id="camponobinario">
+          </div>
+        </div>
+        <label for="campogrado">Grade: </label>
+        <div class="caja_mitad">
+          <div class="formato_check formatodos">
+            <input type="radio" name="grado" id="campopre-escolar">
+            <label for="campopre-escolar">Pre-School</label>
+            <input type="radio" name="grado" id="campo1grado">
+            <label for="campo1grado">1st</label>
+            <input type="radio" name="grado" id="campo2grado">
+            <label for="campo2grado">2st</label>
+            <input type="radio" name="grado" id="campo3grado">
+            <label for="campo3grado">3st</label>
+            <input type="radio" name="grado" id="campo4grado">
+            <label for="campo4grado">4st</label>
+            <input type="radio" name="grado" id="campo5grado">
+            <label for="campo5grado">5st</label>
+          </div>
+        </div>
+        <div class="mover_abajo">
+          <h3>Which elementary school do you live near?</h3>
+          <label class="seleccion" for="campocolegio">Closest School:</label>
+          <div class="caja_mitad">
+            <div class="formato_check formatodos">
+              <input type="checkbox" name="colegio1" id="campocolegio1">
+              <label for="campocolegio1">AJ Katzanmaier</label>
+              <input type="checkbox" name="colegio2" id="campocolegio2">
+              <label for="campocolegio2">Marjorie P. Hart</label>
+              <input type="checkbox" name="colegio3" id="campocolegio3">
+              <label for="colegio3">Greenbay</label>
+              <input type="checkbox" name="colegio4" id="campocolegio4">
+              <label for="colegio4">North Elementary</label>
+              <br>
+              <input type="checkbox" name="colegio5" id="campocolegio5">
+              <label for="colegio5">Howard A. Yeager</label>
+              <input type="checkbox" name="colegio6" id="campocolegio6">
+              <label for="colegio6">South Elementary</label>
+            </div>
+          </div>
+        </div>
+        <div class="mover_abajo">
+          <h3>What position(s) do you normally play? (check all that apply)</h3>
+          <div class="caja_mitad">
+            <div class="formato_check formatodos">
+              <input type="checkbox" name="posicion1" id="campoposicion1">
+              <label for="campoposicion1">Forward</label>
+              <input type="checkbox" name="posicion2" id="campoposicion2">
+              <label for="posicion2">Midfield</label>
+              <br>
+              <input type="checkbox" name="posicion3" id="campoposicion3">
+              <label for="posicion3">Defense</label>
+              <input type="checkbox" name="posicion4" id="campoposicion4">
+              <label for="posicion4">Goalkeeper</label>
+            </div>
+          </div>
+        </div>
+        <div class="mover_abajo">
+          <h3>Uniform Size: </h3>
+          <div class="caja_mitad">
+            <div class="formato_check formatodos">
+              <input type="radio" name="talla" id="campotalla1">
+              <label for="campotalla1">Youth Small</label>
+              <input type="radio" name="talla" id="campotalla2">
+              <label for="campotalla2">Medium</label>
+              <input type="radio" name="talla" id="campotalla3">
+              <label for="campotalla3">Youth Medium</label>
+              <input type="radio" name="talla" id="campotalla4">
+              <label for="campotalla4">Large</label>
+              <input type="radio" name="talla" id="campotalla5">
+              <label for="campotalla5">Youth Large</label>
+              <input type="radio" name="talla" id="campotalla6">
+              <label for="campotalla6">Extra Large</label>
+              <input type="radio" name="talla" id="campotalla7">
+              <label for="campotalla7">Small</label>
+            </div>
+          </div>
+          
+        </div>
+        <div class="mover_abajo">
+          <h3>Permission to Play</h3>
+          <p>I, the parent or guardian of the minor registrant, agree that the registrant 
+            and I will abide by all the rules of the Northside Youth Soccer League (NYSL). In 
+            recognizing the possibility of physical injury associated with soccer and in 
+            consideration for the “League” accepting the registrant for its soccer programs 
+            and activities, I hereby release, discharge, and/or otherwise indemnify NYSL, 
+            their employees and associated personnel and volunteers,including the facilities 
+            used for practices and games, against any claim by or on behalf of the registrant 
+            as a result of the registrant’s participation in the programand/orbeing 
+            transported to or from NYSL sponsored activities,which transportation</p>
+          <p>I, the parent or guardian of the minor registrant, agree that the registrant 
+            and I will abide by all the rules of the Northside Youth Soccer League (NYSL). 
+            In recognizing the possibility of physical injury associated with soccer and 
+            in consideration for the “League” accepting the registrant for its soccer 
+            programs and activities, I hereby release, discharge, and/or otherwise indemnify 
+            NYSL, their employees and associated personnel and volunteers,including the 
+            facilities used for practices and games, against any claim by or on behalf 
+            of the registrant as a result of the registrant’s participation in the 
+            programand/orbeing transported to or from NYSL sponsored activities,which 
+            transportation</p>
+          <div class="formato_check mover_abajo">
+            <label for="campopadre">Parent/GuardianSignature: </label>
+            <input class="formatotres" type="text" name="padre" id="campopadre">
+            <label for="campofecha2">date: </label>
+            <input class="formatotres" type="date" name="fecha2" id="campofecha2" placeholder="Ingrese su Apellido">
+          </div>
+          <div class="caja_mitad caja_boton">
+            <button class="formatoboton" type="reset">Reiniciar</button>
+            <button class="formatoboton" type="submit">Enviar</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+  <!--Final del banner principal-->
+  <!--Comienzo footer-->
+  <footer>
+    <p>Creado por Nicolas Lara</p>
+    <p>Copyright © 2021 www.nysl.com</p>
+  </footer>
+  <!--Final del footer-->
+</body>
+</html>
